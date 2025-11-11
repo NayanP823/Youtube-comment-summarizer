@@ -1,0 +1,6 @@
+fastapi
+google-api-python-client
+transformers
+pydantic
+uvicorn
+
