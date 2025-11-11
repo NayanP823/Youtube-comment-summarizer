@@ -23,7 +23,7 @@ app.add_middleware(
 )
 
 # --------- Your Model Configs ---------
-YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", "AIzaSyBghOBdy-a5Fs-puauYzHbzMQMar29ng-g")
+YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY")
 MAX_COMMENTS = 200
 COMMENTS_PER_CHUNK = 10
 
